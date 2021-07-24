@@ -126,7 +126,7 @@ body {
   width: 11px;
   position: absolute;
   top: 24px;
-  right: 15px;
+  right: 22px;
 }
 .account .account-form .form .account-information .clue-menu .account-clue svg:hover {
   fill: #1e254e;
@@ -139,13 +139,13 @@ body {
   margin-bottom: 3px;
   font-family: semiBold600, sans-serif;
   text-align: left;
-  padding-left: 18px;
+  padding-left: 29px;
 }
 .account .account-form .form .account-information .input {
   background: #f3f3fa;
   outline: none;
   border: none;
-  padding: 8px 62px;
+  padding: 8px 50px;
   border-radius: 40px;
   padding-left: 18px;
   font-size: 12px;
@@ -168,12 +168,12 @@ body {
   font-size: 10px;
   position: absolute;
   top: 77px;
-  left: 19px;
+  left: 29px;
 }
 .account .account-form .form .account-information .password-control {
   position: absolute;
   top: 57px;
-  right: 10px;
+  right: 18px;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -185,7 +185,7 @@ body {
 .account .account-form .form .account-information .password-cntrl {
   position: absolute;
   top: 57px;
-  right: 10px;
+  right: 18px;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -198,7 +198,7 @@ body {
   padding: 39px 0 18px 0;
   text-align: center;
 }
-.account .account-form .action-form .btn {
+.account .account-form .btn {
   background: #1e1a3e;
   outline: none;
   border: none;
@@ -210,18 +210,19 @@ body {
   font-family: medium500, sans-serif;
   padding: 11px 90px;
 }
-.account .information {
+
+.information {
   padding: 20px 0 34px 0;
-  width: 190px;
+  width: 182px;
   margin: 0 auto;
 }
-.account .information .in {
+.information .in {
   font-size: 14px;
   line-height: 20px;
   color: #1e1a3e;
   font-family: medium500, sans-serif;
 }
-.account .information .in a {
+.information .in a {
   color: #1e1a3e;
 }
 

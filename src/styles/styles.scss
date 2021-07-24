@@ -128,7 +128,7 @@ body {
                             width: 11px;
                             position: absolute;
                             top: 24px;
-                            right: 15px;
+                            right: 22px;
                             &:hover {
                                 fill: #1e254e;
                                 cursor: pointer;
@@ -144,13 +144,13 @@ body {
                     margin-bottom: 3px;
                     font-family: $fontSemiBold;
                     text-align: left;
-                    padding-left: 18px;
+                    padding-left: 29px;
                 }
                 .input {
                     background: #f3f3fa;
                     outline: none;
                     border: none;
-                    padding: 8px 62px;
+                    padding: 8px 50px;
                     border-radius: 40px;
                     padding-left: 18px;
                     font-size: 12px;
@@ -173,12 +173,12 @@ body {
                     font-size: 10px;
                     position: absolute;
                     top: 77px;
-                    left: 19px;
+                    left: 29px;
                 }
                 .password-control {
                     position: absolute;
                     top: 57px;
-                    right: 10px;
+                    right: 18px;
                     width: 20px;
                     height: 20px;
                     display: inline-block;
@@ -190,7 +190,7 @@ body {
                 .password-cntrl {
                     position: absolute;
                     top: 57px;
-                    right: 10px;
+                    right: 18px;
                     width: 20px;
                     height: 20px;
                     display: inline-block;
@@ -221,7 +221,7 @@ body {
 }
 .information {
     padding: 20px 0 34px 0;
-    width: 190px;
+    width: 182px;
     margin: 0 auto;
     .in {
         font-size: 14px;
