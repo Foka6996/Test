@@ -32,7 +32,7 @@ $('.open').click(() => {
     }
 });
 //показать.скрыть пароль
-$('.account').on('click', '.password-cntrl', function(){
+$('.account').on('click', '.password-control', function(){
 	if ($('#password').attr('type') == 'password'){
 		$(this).addClass('view');
 		$('#password').attr('type', 'text');
