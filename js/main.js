@@ -11,7 +11,7 @@ $('.open').click(() => {
 
     if (!name.val()) {
         name.siblings('.input-error').show();
-        name.css('background', '#ff859a');
+        name.css('background', '#fdcbd0');
         error = true;
     } else {
         name.css('background', '#F3F3FA')
@@ -20,7 +20,7 @@ $('.open').click(() => {
     
     if (!email.val()) {
         email.siblings('.input-error').show();
-        email.css('background', '#ff859a');
+        email.css('background', '#fdcbd0');
         error = true;
     } else {
         email.css('background', '#F3F3FA')
@@ -29,7 +29,7 @@ $('.open').click(() => {
     
     if (!password.val()) {
         password.siblings('.input-error').show();
-        password.css('background', '#ff859a');
+        password.css('background', '#fdcbd0');
         error = true;
     } else {
         password.css('background', '#F3F3FA')
@@ -38,7 +38,7 @@ $('.open').click(() => {
     
     if (!repeat.val()) {
         repeat.siblings('.input-error').show();
-        repeat.css('background', '#ff859a');
+        repeat.css('background', '#fdcbd0');
         error = true;
     } else {
         repeat.css('background', '#F3F3FA')
@@ -49,7 +49,7 @@ $('.open').click(() => {
         password.siblings('.input-error').hide();
         repeat.siblings('.input-error').hide();
         password.siblings('.input-error-repeat').show();
-        password.css('background', '#ff859a');
+        password.css('background', '#fdcbd0');
         repeat.siblings('.input-error-repeat').show();
         repeat.css('background', '#FF6683');
         error = true;

@@ -8,7 +8,7 @@ $('.open').click(() => {
     let password = $('#password');
     if (!email.val()) {
         email.siblings('.input-error').show();
-        email.css('background', '#ff859a');
+        email.css('background', '#fdcbd0');
         error = true;
     } else {
         email.css('background', '#F3F3FA')
@@ -16,7 +16,7 @@ $('.open').click(() => {
     }
     if (!password.val()) {
         password.siblings('.input-error').show();
-        password.css('background', '#ff859a');
+        password.css('background', '#fdcbd0');
         error = true;
     } else {
         password.css('background', '#F3F3FA')
