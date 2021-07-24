@@ -1,22 +1,27 @@
 @font-face {
   font-family: regular400;
   src: url(../../fonts/InterRegular.ttf);
+  font-weight: 400;
 }
 @font-face {
   font-family: medium500;
   src: url(../../fonts/InterMedium.ttf);
+  font-weight: 500;
 }
 @font-face {
   font-family: semiBold600;
   src: url(../../fonts/InterSemiBold.ttf);
+  font-weight: 600;
 }
 @font-face {
   font-family: bold700;
   src: url(../../fonts/InterBold.ttf);
+  font-weight: 700;
 }
 @font-face {
   font-family: extraBold800;
   src: url(../../fonts/InterExtraBold.ttf);
+  font-weight: 800;
 }
 body {
   margin: 0 auto;
