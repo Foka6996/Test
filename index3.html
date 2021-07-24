@@ -30,7 +30,10 @@
               placeholder="•••••••••"
               class="input"
               required
+              inputmode="numeric"
               id="password"
+              minlength="8"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             />
             <p class="input-error">Enter valid password</p>
             <a href="#" class="password-control"><img src="svg/visibility.svg" alt=""></a>

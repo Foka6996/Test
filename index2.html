@@ -49,7 +49,9 @@
               placeholder="••••••••"
               class="input"
               required
+              inputmode="numeric"
               id="password"
+              minlength="8"
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             />
             <a href="#" class="password-cntrl"><img src="svg/visibility.svg" alt=""></a>
@@ -64,7 +66,10 @@
               placeholder="••••••••"
               class="input"
               id="repeat"
+              inputmode="numeric"
+              minlength="8"
               required
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             />
             <a href="#" class="password-control"><img src="svg/visibility.svg" alt=""></a>
             <p class="input-error">Enter valid repeat password</p>
