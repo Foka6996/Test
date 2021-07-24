@@ -1,0 +1,251 @@
+@font-face {
+    font-family: regular400, sans-serif;
+    src: url(../../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: medium500;
+    src: url(../../fonts/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: semiBold600;
+    src: url(../../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: bold700;
+    src: url(../../fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: extraBold800;
+    src: url(../../fonts/Inter-ExtraBold.ttf);
+}
+$fontRegular: regular400, sans-serif;
+$fontMedium: medium500, sans-serif;
+$fontSemiBold: semiBold600, sans-serif;
+$fontBold: bold700, sans-serif;
+$fontExtraBold: extraBold800, sans-serif;
+
+body {
+    margin: 0 auto;
+    background: #faf3f3;
+}
+.basic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+    .basic-title {
+        font-size: 22px;
+        font-family: $fontExtraBold;
+        line-height: 30px;
+        color: #181c43;
+        margin-top: 64px;
+        letter-spacing: 0.02em;
+        margin: 0 auto;
+        padding-top: 64px;
+    }
+    .basic-text {
+        font-family: $fontRegular;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #3e4462;
+        margin-top: 17px;
+    }
+    .basic-action {
+        margin-top: 27px;
+        .btn {
+            background: #ffffff;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            padding: 17px 35px;
+            margin-right: 16px;
+            font-family: $fontMedium;
+            font-size: 14px;
+            line-height: 20px;
+            color: #000;
+        }
+        .arrow {
+            background: #1e1a3e;
+            padding: 16px 17px;
+            border-radius: 50%;
+        }
+    }
+}
+.account {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    .account-title {
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #181c43;
+        font-family: $fontExtraBold;
+        padding: 63px 0 20px 0;
+    }
+    .account-form {
+        margin-top: 20px;
+        background: #ffffff;
+        border-radius: 40px;
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        .form {
+            width: 231px;
+            margin: 0 auto;
+            .account-information {
+                padding-top: 24px;
+                width: 230px;
+                position: relative;
+                .clue-menu {
+                    &:hover .clue {
+                        display: block;
+                    }
+                    .clue {
+                        display: none;
+                        font-family: $fontRegular;
+                        position: absolute;
+                        background: #1e1a3e;
+                        border-radius: 8px;
+                        font-size: 10px;
+                        line-height: 14px;
+                        color: #f3f3f3;
+                        width: 184px;
+                        padding: 5px 11px;
+                        top: -18px;
+                        right: 11px;
+                    }
+                    .account-clue {
+                        svg {
+                            fill: gray;
+                            width: 11px;
+                            position: absolute;
+                            top: 24px;
+                            right: 15px;
+                            &:hover {
+                                fill: #1e254e;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+                .input-name {
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: rgba(0, 0, 0, 0.8);
+                    margin-bottom: 3px;
+                    font-family: $fontSemiBold;
+                    text-align: left;
+                    padding-left: 18px;
+                }
+                .input {
+                    background: #f3f3fa;
+                    outline: none;
+                    border: none;
+                    padding: 8px 62px;
+                    border-radius: 40px;
+                    padding-left: 18px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-family: $fontRegular;
+                    color: rgba(0, 0, 0, 0.8);
+                    &::placeholder {
+                        color: rgba(0, 0, 0, 0.8);
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-family: $fontRegular;
+                    }
+                    &:focus {
+                        box-shadow: 0px 0px 11px 2px #fdbaba;
+                    }
+                }
+                p {
+                    display: none;
+                    color: #ff6683;
+                    font-size: 10px;
+                    position: absolute;
+                    top: 77px;
+                    left: 19px;
+                }
+                .password-control {
+                    position: absolute;
+                    top: 57px;
+                    right: 10px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    background: url(../../svg/visibility.svg) 0 0 no-repeat;
+                }
+                .password-control.view {
+                    background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
+                }
+                .password-cntrl {
+                    position: absolute;
+                    top: 57px;
+                    right: 10px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    background: url(../../svg/visibility.svg) 0 0 no-repeat;
+                }
+                .password-cntrl.view {
+                    background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
+                }
+            }
+        }
+        .action-form {
+            padding: 39px 0 18px 0;
+            text-align: center;
+        }
+        .btn {
+            background: #1e1a3e;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 40px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #ffffff;
+            font-family: $fontMedium;
+            padding: 11px 90px;
+        }
+    }
+}
+.information {
+    padding: 20px 0 34px 0;
+    width: 190px;
+    margin: 0 auto;
+    .in {
+        font-size: 14px;
+        line-height: 20px;
+        color: #1e1a3e;
+        font-family: $fontMedium;
+        a {
+            color: #1e1a3e;
+        }
+    }
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    .hello-title {
+        padding-top: 158px;
+        font-family: $fontExtraBold;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-size: 22px;
+        line-height: 30px;
+        color: #181c43;
+    }
+}

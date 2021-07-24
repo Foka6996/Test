@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/styles.css" />
+    <link rel="stylesheet" href="node_modules/hover.css/css/hover.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="account">
+      <div class="account-title">Sign In</div>
+      <div class="account-form">
+        <form action="" class="form">
+          <div class="account-information">
+            <div class="input-name">Email</div>
+            <input
+              type="email"
+              placeholder="example@acme.com"
+              class="input"
+              pattern=".+@globex\.com"
+              id="email"
+            />
+            <p class="input-error">Enter valid email</p>
+          </div>
+          <div class="account-information">
+            <div class="input-name">Password</div>
+            <input
+              type="password"
+              placeholder="•••••••••"
+              class="input"
+              required
+              id="password"
+            />
+            <p class="input-error">Enter valid password</p>
+            <a href="#" class="password-cntrl"></a>
+          </div>
+        </form>
+        <div class="action-form">
+          <button class="btn open hvr-pulse-shrink">Sign In</button>
+        </div>
+      </div>
+      <div class="information">
+        <span class="in"
+          >Don’t have an account yet?<a href="index2.html"> Sign Up </a>
+        </span>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,244 @@
+@font-face {
+  font-family: regular400, sans-serif;
+  src: url(../../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: medium500;
+  src: url(../../fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: semiBold600;
+  src: url(../../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: bold700;
+  src: url(../../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: extraBold800;
+  src: url(../../fonts/Inter-ExtraBold.ttf);
+}
+body {
+  margin: 0 auto;
+  background: #faf3f3;
+}
+
+.basic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 220px;
+  margin: 0 auto;
+}
+.basic .basic-title {
+  font-size: 22px;
+  font-family: extraBold800, sans-serif;
+  line-height: 30px;
+  color: #181c43;
+  margin-top: 64px;
+  letter-spacing: 0.02em;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.basic .basic-text {
+  font-family: regular400, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #3e4462;
+  margin-top: 17px;
+}
+.basic .basic-action {
+  margin-top: 27px;
+}
+.basic .basic-action .btn {
+  background: #ffffff;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 17px 35px;
+  margin-right: 16px;
+  font-family: medium500, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+}
+.basic .basic-action .arrow {
+  background: #1e1a3e;
+  padding: 16px 17px;
+  border-radius: 50%;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+.account .account-title {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #181c43;
+  font-family: extraBold800, sans-serif;
+  padding: 63px 0 20px 0;
+}
+.account .account-form {
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 40px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+.account .account-form .form {
+  width: 231px;
+  margin: 0 auto;
+}
+.account .account-form .form .account-information {
+  padding-top: 24px;
+  width: 230px;
+  position: relative;
+}
+.account .account-form .form .account-information .clue-menu:hover .clue {
+  display: block;
+}
+.account .account-form .form .account-information .clue-menu .clue {
+  display: none;
+  font-family: regular400, sans-serif;
+  position: absolute;
+  background: #1e1a3e;
+  border-radius: 8px;
+  font-size: 10px;
+  line-height: 14px;
+  color: #f3f3f3;
+  width: 184px;
+  padding: 5px 11px;
+  top: -18px;
+  right: 11px;
+}
+.account .account-form .form .account-information .clue-menu .account-clue svg {
+  fill: gray;
+  width: 11px;
+  position: absolute;
+  top: 24px;
+  right: 15px;
+}
+.account .account-form .form .account-information .clue-menu .account-clue svg:hover {
+  fill: #1e254e;
+  cursor: pointer;
+}
+.account .account-form .form .account-information .input-name {
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 3px;
+  font-family: semiBold600, sans-serif;
+  text-align: left;
+  padding-left: 18px;
+}
+.account .account-form .form .account-information .input {
+  background: #f3f3fa;
+  outline: none;
+  border: none;
+  padding: 8px 62px;
+  border-radius: 40px;
+  padding-left: 18px;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: regular400, sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+.account .account-form .form .account-information .input::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  line-height: 20px;
+  font-family: regular400, sans-serif;
+}
+.account .account-form .form .account-information .input:focus {
+  box-shadow: 0px 0px 11px 2px #fdbaba;
+}
+.account .account-form .form .account-information p {
+  display: none;
+  color: #ff6683;
+  font-size: 10px;
+  position: absolute;
+  top: 77px;
+  left: 19px;
+}
+.account .account-form .form .account-information .password-control {
+  position: absolute;
+  top: 57px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../../svg/visibility.svg) 0 0 no-repeat;
+}
+.account .account-form .form .account-information .password-control.view {
+  background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
+}
+.account .account-form .form .account-information .password-cntrl {
+  position: absolute;
+  top: 57px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(../../svg/visibility.svg) 0 0 no-repeat;
+}
+.account .account-form .form .account-information .password-cntrl.view {
+  background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
+}
+.account .account-form .action-form {
+  padding: 39px 0 18px 0;
+  text-align: center;
+}
+.account .account-form .action-form .btn {
+  background: #1e1a3e;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: medium500, sans-serif;
+  padding: 11px 90px;
+}
+.account .information {
+  padding: 20px 0 34px 0;
+  width: 190px;
+  margin: 0 auto;
+}
+.account .information .in {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1e1a3e;
+  font-family: medium500, sans-serif;
+}
+.account .information .in a {
+  color: #1e1a3e;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+}
+.hello .hello-title {
+  padding-top: 158px;
+  font-family: extraBold800, sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-size: 22px;
+  line-height: 30px;
+  color: #181c43;
+}
+
+/*# sourceMappingURL=styles.css.map */
