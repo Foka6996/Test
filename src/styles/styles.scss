@@ -1,27 +1,22 @@
 @font-face {
     font-family: regular400, sans-serif;
     src: url(../../fonts/Inter-Regular.ttf);
-    font-weight: 400;
 }
 @font-face {
     font-family: medium500, sans-serif;
     src: url(../../fonts/Inter-Medium.ttf);
-    font-weight: 500;
 }
 @font-face {
     font-family: semiBold600, sans-serif;
     src: url(../../fonts/Inter-SemiBold.ttf);
-    font-weight: 600;
 }
 @font-face {
     font-family: bold700, sans-serif;
     src: url(../../fonts/Inter-Bold.ttf);
-    font-weight: 700;
 }
 @font-face {
     font-family: extraBold800, sans-serif;
     src: url(../../fonts/InterExtraBold.otf);
-    font-weight: 800;
 }
 $fontRegular: regular400, sans-serif;
 $fontMedium: medium500, sans-serif;
@@ -41,16 +36,17 @@ body {
     margin: 0 auto;
     .basic-title {
         font-size: 22px;
-        font-family: $fontExtraBold;
+        font-family: $fontRegular;
+        font-weight: 800;
         line-height: 30px;
         color: #181c43;
         margin-top: 64px;
-        letter-spacing: 0.02em;
         margin: 0 auto;
         padding-top: 64px;
     }
     .basic-text {
         font-family: $fontRegular;
+        font-weight: 400;
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.02em;
@@ -68,6 +64,7 @@ body {
             padding: 17px 35px;
             margin-right: 16px;
             font-family: $fontMedium;
+            font-weight: 500;
             font-size: 14px;
             line-height: 20px;
             color: #000;
@@ -91,6 +88,8 @@ body {
         letter-spacing: 0.02em;
         color: #181c43;
         font-family: $fontExtraBold;
+        font-weight: 800;
+        font-weight: 800;
         padding: 63px 0 20px 0;
     }
     .account-form {
@@ -116,6 +115,7 @@ body {
                     .clue {
                         display: none;
                         font-family: $fontRegular;
+                        font-weight: 400;
                         position: absolute;
                         background: #1e1a3e;
                         border-radius: 8px;
@@ -148,6 +148,7 @@ body {
                     color: rgba(0, 0, 0, 0.8);
                     margin-bottom: 3px;
                     font-family: $fontSemiBold;
+                    font-weight: 600;
                     text-align: left;
                     padding-left: 23px;
                 }
@@ -161,12 +162,14 @@ body {
                     font-size: 12px;
                     line-height: 20px;
                     font-family: $fontRegular;
+                    font-weight: 400;
                     color: rgba(0, 0, 0, 0.8);
                     &::placeholder {
                         color: rgba(0, 0, 0, 0.8);
                         font-size: 14px;
                         line-height: 20px;
                         font-family: $fontRegular;
+                        font-weight: 400;
                     }
                     &:focus {
                         box-shadow: 0px 0px 11px 2px #fdbaba;
@@ -220,6 +223,7 @@ body {
             line-height: 20px;
             color: #ffffff;
             font-family: $fontMedium;
+            font-weight: 500;
             padding: 11px 90px;
         }
     }
@@ -233,6 +237,7 @@ body {
         line-height: 20px;
         color: #1e1a3e;
         font-family: $fontMedium;
+        font-weight: 500;
         a {
             color: #1e1a3e;
         }
@@ -245,6 +250,7 @@ body {
     .hello-title {
         padding-top: 158px;
         font-family: $fontExtraBold;
+        font-weight: 800;
         display: flex;
         align-items: center;
         text-align: center;
