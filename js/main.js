@@ -50,7 +50,7 @@ $(document).ready(() => {
             password.siblings('.input-error-repeat').show();
             password.css('background', '#fdcbd0');
             repeat.siblings('.input-error-repeat').show();
-            repeat.css('background', '#FF6683');
+            repeat.css('background', '#fdcbd0');
             error = true;
         } else {
             repeat.siblings('.input-error-repeat').hide();
