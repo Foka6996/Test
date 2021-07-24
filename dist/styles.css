@@ -131,7 +131,7 @@ body {
   width: 11px;
   position: absolute;
   top: 24px;
-  right: 22px;
+  right: 19px;
 }
 .account .account-form .form .account-information .clue-menu .account-clue svg:hover {
   fill: #1e254e;
@@ -181,7 +181,7 @@ body {
 .account .account-form .form .account-information .password-control {
   position: absolute;
   top: 57px;
-  right: 18px;
+  right: 14px;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -192,7 +192,7 @@ body {
 .account .account-form .form .account-information .password-cntrl {
   position: absolute;
   top: 57px;
-  right: 18px;
+  right: 14px;
   width: 20px;
   height: 20px;
   display: inline-block;
