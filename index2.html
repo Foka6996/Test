@@ -14,12 +14,24 @@
         <form action="" class="form" method="post">
           <div class="account-information">
             <div class="input-name">Full Name</div>
-            <input type="text" placeholder="John Doe" id="name" class="input" required/>
+            <input
+              type="text"
+              placeholder="John Doe"
+              id="name"
+              class="input"
+              required
+            />
             <p class="input-error">Enter valid name</p>
           </div>
           <div class="account-information">
             <div class="input-name">Email</div>
-            <input type="email" placeholder="example@acme.com" id="email" class="input" required/>
+            <input
+              type="email"
+              placeholder="example@acme.com"
+              id="email"
+              class="input"
+              required
+            />
             <p class="input-error">Enter valid email</p>
           </div>
           <div class="account-information">
@@ -54,7 +66,9 @@
               minlength="8"
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             />
-            <a href="#" class="password-cntrl"><img src="svg/visibility.svg" alt=""></a>
+            <a href="#" class="password-cntrl"
+              ><img src="svg/visibility.svg" alt=""
+            /></a>
             <p class="input-error">Enter valid password</p>
             <p class="input-error-repeat">Password mismatch</p>
           </div>
@@ -71,14 +85,16 @@
               required
               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             />
-            <a href="#" class="password-control"><img src="svg/visibility.svg" alt=""></a>
+            <a href="#" class="password-control"
+              ><img src="svg/visibility.svg" alt=""
+            /></a>
             <p class="input-error">Enter valid repeat password</p>
 
             <p class="input-error-repeat">Password mismatch</p>
           </div>
         </form>
         <div class="action-form">
-         <button type="submit" class="btn open ">Sign Up</button>
+          <button type="submit" class="btn open">Sign Up</button>
         </div>
       </div>
       <div class="information">

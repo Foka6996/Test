@@ -141,7 +141,6 @@ body {
                         }
                     }
                 }
-
                 .input-name {
                     font-size: 12px;
                     line-height: 20px;
@@ -190,7 +189,6 @@ body {
                     width: 20px;
                     height: 20px;
                     display: inline-block;
-                    //background: url(../../svg/visibility.svg) 0 0 no-repeat;
                 }
                 .password-control.view {
                     background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
@@ -202,7 +200,6 @@ body {
                     width: 20px;
                     height: 20px;
                     display: inline-block;
-                    //background: url(../../svg/visibility.svg) 0 0 no-repeat;
                 }
                 .password-cntrl.view {
                     background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
@@ -243,7 +240,6 @@ body {
         }
     }
 }
-
 .hello {
     display: flex;
     justify-content: center;
