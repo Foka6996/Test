@@ -57,7 +57,7 @@ $('.open').click(() => {
         password.siblings('.input-error-repeat').hide();
     }
     if (name.val() != ''  && email.val() != '' && password.val() != ''  && repeat.val() != '' ) {
-        location.href = 'index3.html';
+        location.href = 'index4.html';
         return;
     }
     else {

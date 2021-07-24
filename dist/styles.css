@@ -1,22 +1,22 @@
 @font-face {
-  font-family: regular400, sans-serif;
-  src: url(../../fonts/Inter-Regular.ttf);
+  font-family: regular400;
+  src: url(../../fonts/InterRegular.ttf);
 }
 @font-face {
   font-family: medium500;
-  src: url(../../fonts/Inter-Medium.ttf);
+  src: url(../../fonts/InterMedium.ttf);
 }
 @font-face {
   font-family: semiBold600;
-  src: url(../../fonts/Inter-SemiBold.ttf);
+  src: url(../../fonts/InterSemiBold.ttf);
 }
 @font-face {
   font-family: bold700;
-  src: url(../../fonts/Inter-Bold.ttf);
+  src: url(../../fonts/InterBold.ttf);
 }
 @font-face {
   font-family: extraBold800;
-  src: url(../../fonts/Inter-ExtraBold.ttf);
+  src: url(../../fonts/InterExtraBold.ttf);
 }
 body {
   margin: 0 auto;
@@ -177,7 +177,6 @@ body {
   width: 20px;
   height: 20px;
   display: inline-block;
-  background: url(../../svg/visibility.svg) 0 0 no-repeat;
 }
 .account .account-form .form .account-information .password-control.view {
   background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
@@ -189,7 +188,6 @@ body {
   width: 20px;
   height: 20px;
   display: inline-block;
-  background: url(../../svg/visibility.svg) 0 0 no-repeat;
 }
 .account .account-form .form .account-information .password-cntrl.view {
   background: url(../../svg/visibility_off.svg) 0 0 no-repeat;
@@ -213,7 +211,7 @@ body {
 
 .information {
   padding: 20px 0 34px 0;
-  width: 182px;
+  width: 175px;
   margin: 0 auto;
 }
 .information .in {
