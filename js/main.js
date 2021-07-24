@@ -46,6 +46,7 @@ $('.open').click(() => {
     }
     
     if (password.val() !== repeat.val()) {
+        password.siblings('.input-error').hide();
         repeat.siblings('.input-error').hide();
         password.siblings('.input-error-repeat').show();
         password.css('background', '#ff859a');
@@ -67,7 +68,6 @@ $('.open').click(() => {
 
 });
     
-
 //показать.скрыть пароль
 $('.account').on('click', '.password-cntrl', function(){
 	if ($('#password').attr('type') == 'password'){

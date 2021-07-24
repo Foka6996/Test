@@ -1,26 +1,26 @@
 @font-face {
-  font-family: regular400;
-  src: url(../../fonts/InterRegular.ttf);
+  font-family: regular400, sans-serif;
+  src: url(../../fonts/Inter-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
-  font-family: medium500;
-  src: url(../../fonts/InterMedium.ttf);
+  font-family: medium500, sans-serif;
+  src: url(../../fonts/Inter-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
-  font-family: semiBold600;
-  src: url(../../fonts/InterSemiBold.ttf);
+  font-family: semiBold600, sans-serif;
+  src: url(../../fonts/Inter-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
-  font-family: bold700;
-  src: url(../../fonts/InterBold.ttf);
+  font-family: bold700, sans-serif;
+  src: url(../../fonts/Inter-Bold.ttf);
   font-weight: 700;
 }
 @font-face {
-  font-family: extraBold800;
-  src: url(../../fonts/InterExtraBold.ttf);
+  font-family: extraBold800, sans-serif;
+  src: url(../../fonts/InterExtraBold.otf);
   font-weight: 800;
 }
 body {
@@ -144,7 +144,7 @@ body {
   margin-bottom: 3px;
   font-family: semiBold600, sans-serif;
   text-align: left;
-  padding-left: 29px;
+  padding-left: 23px;
 }
 .account .account-form .form .account-information .input {
   background: #f3f3fa;
@@ -173,7 +173,7 @@ body {
   font-size: 10px;
   position: absolute;
   top: 77px;
-  left: 29px;
+  left: 23px;
 }
 .account .account-form .form .account-information .password-control {
   position: absolute;
